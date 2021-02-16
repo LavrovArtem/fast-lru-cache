@@ -1,0 +1,40 @@
+{
+  "name": "fast-lru-cache",
+  "version": "1.0.0",
+  "description": "The fast and simple LRU cache realization.",
+  "keywords": [
+    "lru",
+    "fast",
+    "cache"
+  ],
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "dist/*",
+    "types/*"
+  ],
+  "scripts": {
+    "build": "gulp build",
+    "test": "gulp test",
+    "benchmark": "gulp build && node benchmark",
+    "browser": "gulp browser"
+  },
+  "author": {
+    "name": "Artem Lavrov",
+    "email": "artjomlav@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LavrovArtem/fast-lru-cache.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "gulp": "^4.0.2",
+    "gulp-mocha": "^7.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "lru-cache": "^6.0.0",
+    "merge-stream": "^2.0.0",
+    "typescript": "^4.1.3"
+  }
+}
